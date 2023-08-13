@@ -1,0 +1,7 @@
+data_english/
+!src/data/
+runs/
+checkpoint*/
+__pycache__/
+*.csv
+vncorenlp/
