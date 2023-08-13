@@ -11,13 +11,6 @@ import pandas as pd
 logging.basicConfig(level=logging.INFO, format='%(asctime)s:%(levelname)s:%(module)s: %(message)s')
 logger = logging.getLogger(__name__)
 
-# BOT_TOKEN = "6252126055:AAFpypLYeeopt6W6J8YCSwVb7NczL8ExLys"
-# bot = telegram.Bot(token=BOT_TOKEN)
-# CHAT_ID = '1855242001'
-
-# async def send_message_to_telegram(input_message: str, output_message: str):
-#     full_message = f"Input: {input_message}\nOutput: {output_message}"
-#     await bot.send_message(chat_id=CHAT_ID, text=full_message)
 sql_connect = MySQL(sql_config)
 
 
